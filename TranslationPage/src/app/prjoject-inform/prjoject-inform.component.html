@@ -1,0 +1,39 @@
+<mat-grid-list cols = "3" rowHeight = "5:1">
+
+    <mat-grid-tile>
+        <div>
+            해시태그 등
+        </div>
+    </mat-grid-tile>
+    
+    <mat-grid-tile [colspan] = 2>
+        <div></div>
+    </mat-grid-tile>
+    
+    <mat-grid-tile>
+        <div>
+            번역 강도
+            <mat-slider
+                thumbLabel
+                color = "primary"
+                step="1"
+                min="0"
+                max="100"
+                aria-label="units">
+            </mat-slider>
+        </div>
+    </mat-grid-tile>
+    
+    <mat-grid-tile>
+        <div>
+            진행률
+        </div>
+    </mat-grid-tile>
+    
+    <mat-grid-tile>
+        <div>
+            남은 시간
+        </div>
+    </mat-grid-tile>
+    
+</mat-grid-list>
